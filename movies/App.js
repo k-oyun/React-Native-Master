@@ -7,6 +7,7 @@ import {Asset} from "expo-asset";
 import {NavigationContainer} from "@react-navigation/native";
 import Tabs from "./navigation/Tabs";
 import Stack from "./navigation/Stack";
+import Root from "./navigation/Root";
 
 const loadFonts = (fonts) => fonts.map((font) => Font.loadAsync(font));
 
@@ -37,7 +38,7 @@ export default function App() {
   //ready state
   return (
     <NavigationContainer>
-      <Stack />
+      <Root />
     </NavigationContainer>
   );
 }
