@@ -1,4 +1,3 @@
-import {react} from "react";
 import {createNativeStackNavigator} from "@react-navigation/native-stack";
 import {Text, View, TouchableOpacity} from "react-native";
 import {YELLOW_COLOR} from "../colors";
